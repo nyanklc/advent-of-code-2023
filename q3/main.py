@@ -96,7 +96,7 @@ def create_objects(input):
     return obj_list
 
 
-f = open("input2.txt", "r")
+f = open("input.txt", "r")
 lst = create_objects(f)
 numbers = merge_numbers(lst)
 added_nums = []

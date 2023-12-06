@@ -108,7 +108,7 @@ def get_min_min(maps):
         min = x
   return min
 
-f = open("input2.txt", "r")
+f = open("input.txt", "r")
 lines = f.readlines()
 seeds = get_seeds(lines[0])
 maps = get_maps(lines[2:])

@@ -25,7 +25,7 @@ def valid_game(line):
     return red_max, green_max, blue_max
 
 
-f = open("input2.txt", "r")
+f = open("input.txt", "r")
 power_sum = 0
 for line in f.readlines():
     red, green, blue = valid_game(line)

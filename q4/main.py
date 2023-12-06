@@ -47,7 +47,7 @@ def expand_cards(lst):
             cards.append(copy(lst[card.id + i]))
     return len(cards)
 
-f = open("input2.txt", "r")
+f = open("input.txt", "r")
 cards = []
 for line in f.readlines():
     cards.append(Card(line))
